@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42154A17E97108849F298F41 /* Pods_Paypal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A7FF5D785C371B5272BF85 /* Pods_Paypal.framework */; };
 		F024441A20FB647A0050674B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024441920FB647A0050674B /* AppDelegate.swift */; };
 		F024441C20FB647A0050674B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024441B20FB647A0050674B /* ViewController.swift */; };
 		F024441F20FB647A0050674B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F024441D20FB647A0050674B /* Main.storyboard */; };
 		F024442120FB647C0050674B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F024442020FB647C0050674B /* Assets.xcassets */; };
 		F024442420FB647C0050674B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F024442220FB647C0050674B /* LaunchScreen.storyboard */; };
+		F024443A20FB6AAD0050674B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443120FB6AAC0050674B /* MobileCoreServices.framework */; };
+		F024443B20FB6AAD0050674B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443220FB6AAC0050674B /* AudioToolbox.framework */; };
+		F024443C20FB6AAD0050674B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443320FB6AAC0050674B /* AVFoundation.framework */; };
+		F024443D20FB6AAD0050674B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443420FB6AAC0050674B /* CoreLocation.framework */; };
+		F024443E20FB6AAD0050674B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443520FB6AAD0050674B /* CoreMedia.framework */; };
+		F024443F20FB6AAD0050674B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443620FB6AAD0050674B /* MessageUI.framework */; };
+		F024444020FB6AAD0050674B /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443720FB6AAD0050674B /* SafariServices.framework */; };
+		F024444120FB6AAD0050674B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443820FB6AAD0050674B /* Accelerate.framework */; };
+		F024444220FB6AAD0050674B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F024443920FB6AAD0050674B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DBB9676BC612090BF364AC4 /* Pods-Paypal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paypal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paypal/Pods-Paypal.release.xcconfig"; sourceTree = "<group>"; };
+		AB9FB165855134D095D9A18A /* Pods-Paypal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paypal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paypal/Pods-Paypal.debug.xcconfig"; sourceTree = "<group>"; };
 		F024441620FB647A0050674B /* Paypal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paypal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F024441920FB647A0050674B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F024441B20FB647A0050674B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,18 @@
 		F024442020FB647C0050674B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F024442320FB647C0050674B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F024442520FB647C0050674B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F024442D20FB68700050674B /* Paypal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paypal-Bridging-Header.h"; sourceTree = "<group>"; };
+		F024443020FB69110050674B /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		F024443120FB6AAC0050674B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F024443220FB6AAC0050674B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F024443320FB6AAC0050674B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F024443420FB6AAC0050674B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F024443520FB6AAD0050674B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F024443620FB6AAD0050674B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F024443720FB6AAD0050674B /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		F024443820FB6AAD0050674B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F024443920FB6AAD0050674B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F4A7FF5D785C371B5272BF85 /* Pods_Paypal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paypal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F024443A20FB6AAD0050674B /* MobileCoreServices.framework in Frameworks */,
+				F024443B20FB6AAD0050674B /* AudioToolbox.framework in Frameworks */,
+				F024443C20FB6AAD0050674B /* AVFoundation.framework in Frameworks */,
+				F024443D20FB6AAD0050674B /* CoreLocation.framework in Frameworks */,
+				F024443E20FB6AAD0050674B /* CoreMedia.framework in Frameworks */,
+				F024443F20FB6AAD0050674B /* MessageUI.framework in Frameworks */,
+				F024444020FB6AAD0050674B /* SafariServices.framework in Frameworks */,
+				F024444120FB6AAD0050674B /* Accelerate.framework in Frameworks */,
+				F024444220FB6AAD0050674B /* SystemConfiguration.framework in Frameworks */,
+				42154A17E97108849F298F41 /* Pods_Paypal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B421D16D4A3F6E87568FCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F024443820FB6AAD0050674B /* Accelerate.framework */,
+				F024443220FB6AAC0050674B /* AudioToolbox.framework */,
+				F024443320FB6AAC0050674B /* AVFoundation.framework */,
+				F024443420FB6AAC0050674B /* CoreLocation.framework */,
+				F024443520FB6AAD0050674B /* CoreMedia.framework */,
+				F024443620FB6AAD0050674B /* MessageUI.framework */,
+				F024443120FB6AAC0050674B /* MobileCoreServices.framework */,
+				F024443720FB6AAD0050674B /* SafariServices.framework */,
+				F024443920FB6AAD0050674B /* SystemConfiguration.framework */,
+				F4A7FF5D785C371B5272BF85 /* Pods_Paypal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		148ADB5BFA9514CD11A36F4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB9FB165855134D095D9A18A /* Pods-Paypal.debug.xcconfig */,
+				2DBB9676BC612090BF364AC4 /* Pods-Paypal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F024440D20FB647A0050674B = {
 			isa = PBXGroup;
 			children = (
 				F024441820FB647A0050674B /* Paypal */,
 				F024441720FB647A0050674B /* Products */,
+				148ADB5BFA9514CD11A36F4E /* Pods */,
+				0B421D16D4A3F6E87568FCDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +122,8 @@
 				F024442020FB647C0050674B /* Assets.xcassets */,
 				F024442220FB647C0050674B /* LaunchScreen.storyboard */,
 				F024442520FB647C0050674B /* Info.plist */,
+				F024442D20FB68700050674B /* Paypal-Bridging-Header.h */,
+				F024443020FB69110050674B /* ZZAppDelegate.h */,
 			);
 			path = Paypal;
 			sourceTree = "<group>";
@@ -71,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F024442820FB647C0050674B /* Build configuration list for PBXNativeTarget "Paypal" */;
 			buildPhases = (
+				5B6D5D8712BEAF1477CDC53C /* [CP] Check Pods Manifest.lock */,
 				F024441220FB647A0050674B /* Sources */,
 				F024441320FB647A0050674B /* Frameworks */,
 				F024441420FB647A0050674B /* Resources */,
@@ -96,6 +161,7 @@
 				TargetAttributes = {
 					F024441520FB647A0050674B = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -129,6 +195,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6D5D8712BEAF1477CDC53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paypal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F024441220FB647A0050674B /* Sources */ = {
@@ -278,8 +365,10 @@
 		};
 		F024442920FB647C0050674B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9FB165855134D095D9A18A /* Pods-Paypal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXA5M4234Y;
 				INFOPLIST_FILE = Paypal/Info.plist;
@@ -289,6 +378,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ugpass.Paypal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paypal/Paypal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +387,10 @@
 		};
 		F024442A20FB647C0050674B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBB9676BC612090BF364AC4 /* Pods-Paypal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DXA5M4234Y;
 				INFOPLIST_FILE = Paypal/Info.plist;
@@ -307,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ugpass.Paypal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paypal/Paypal-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
