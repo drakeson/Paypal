@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/macbookpro/IOSProjects/Paypal/Build/Paypal/Build/Products/Debug-iphonesimulator/Pods_Paypal.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Paypal-umbrella.h",
+          'external-contents': "/Users/macbookpro/IOSProjects/Paypal/Pods/Target Support Files/Pods-Paypal/Pods-Paypal-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Paypal-Swift.h",
+          'external-contents': "/Users/macbookpro/IOSProjects/Paypal/Build/Paypal/Build/Products/Debug-iphonesimulator/Pods_Paypal.framework/Headers/Pods_Paypal-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/macbookpro/IOSProjects/Paypal/Build/Paypal/Build/Products/Debug-iphonesimulator/Pods_Paypal.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/macbookpro/IOSProjects/Paypal/Build/Paypal/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Paypal.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9579260df31a765ddbde3134234d4b84"
+build_time: [1531656412, 540758000]
+inputs:
+  "/Users/macbookpro/IOSProjects/Paypal/Paypal/ViewController.swift": [1531656412, 0]
+  "/Users/macbookpro/IOSProjects/Paypal/Paypal/AppDelegate.swift": [1531655712, 0]
